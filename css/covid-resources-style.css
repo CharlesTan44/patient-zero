@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  background-size: cover;
+  background-image: url(../images/covid-resources.png);
+}
+/* Nav Bar */
+#covid-resources-button {
+  background-color: red;
+}
+/* End Of Nav Bar */
+
+.inbox {
+  transform: skew(15deg);
+  background-color: black;
+  margin: 5%;
+  color: white;
+}
+
+.box {
+  margin: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  opacity: 0.7;
+}
