@@ -1,0 +1,17 @@
+/* Nav Bar */
+
+nav ul li a:hover {
+  background-color: #cccccc;
+  color: #f80000;
+  transition: all 0.5s;
+}
+
+#news-feed-button {
+  background-color: red;
+}
+
+body {
+  display: grid;
+  background-size: cover;
+  background-image: url(../images/newsfeed-background.png);
+}

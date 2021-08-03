@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+nav {
+  background-color: rgb(2, 2, 2, 0.5);
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  text-align: right;
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: all 0.5s;
+  padding: 1em;
+}
+
+nav ul li a:hover {
+  background-color: white;
+}
+
+nav ul li a:hover {
+  background-color: #cccccc;
+  color: #f80000;
+  transition: all 0.5s;
+}
+
+h1 {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* End Of Navigation Bar */
+
+/* Body */
