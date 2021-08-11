@@ -9,7 +9,9 @@ nav ul li a:hover {
 #news-feed-button {
   background-color: red;
 }
-
+html {
+  height: 100%;
+}
 body {
   display: grid;
   background-size: cover;

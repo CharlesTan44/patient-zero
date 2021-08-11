@@ -8,3 +8,11 @@
      background-color: red;
  }
  
+ .game-container {
+     display: grid;
+     grid-template-columns: 2fr;
+     width:500px;
+     height:500px;
+ }
+ 
+     
