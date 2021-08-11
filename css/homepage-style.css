@@ -8,26 +8,31 @@ body {
   background-color: red;
 }
 
-.bigbox {
-  margin: 20%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+.instruction {
+  width: 50em;
+  height: 35em;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #00000066;
+  position: absolute;
+  transform: translate(-50%, -50%);
   opacity: 0.7;
-  background-color: black;
-}
-.smallbox {
-  background-color: black;
-  margin: 5%;
+  top: 40em;
+  right: 24%;
   color: white;
+}
+.save-the-world {
 }
 .start-button {
   color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #00000066;
   text-align: right;
-  margin: 5%;
-  margin-top: -27%;
+  top: 65%;
   background-color: black;
   opacity: 0.7;
-  width: 8em;
   border: red dotted;
+  position: absolute;
+  right: 10%;
+  padding: 1%;
 }
