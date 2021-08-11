@@ -1,0 +1,10 @@
+ body {
+     background-size: cover;
+     background-image: url(../images/1483394.png);
+     height: 100%;
+ }
+ 
+ #game-on-button {
+     background-color: red;
+ }
+ 

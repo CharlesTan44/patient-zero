@@ -9,25 +9,34 @@ body {
 }
 
 .bigbox {
-  margin: 20%;
+  margin: 5%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  opacity: 0.7;
-  background-color: black;
+  background-color: rgba(0,0,0,0.7);
+  width: 1000px;
+  height: 600px;
+  transform: translateY(25%) translateX(20%);
 }
 .smallbox {
-  background-color: black;
   margin: 5%;
   color: white;
 }
-.start-button {
-  color: white;
-  text-align: right;
-  margin: 5%;
-  margin-top: -27%;
-  background-color: black;
-  opacity: 0.7;
-  width: 8em;
-  border: red dotted;
+
+.play-button{
+  position:absolute;
+  top:50%;
+  right:10%;
+}
+
+.play-button a {
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(45, 165, 235);
+  display: block;
+  padding:10px;
+  color:white;
+  border-radius: 25px;
+  font-size: 40px;
+  font-weight: bold;
 }

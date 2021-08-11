@@ -13,5 +13,60 @@ nav ul li a:hover {
 body {
   display: grid;
   background-size: cover;
-  background-image: url(../images/newsfeed-background.png);
+  background-image: url(../images/_115033548_gettyimages-1226314512.png);
+}
+
+.news-feed-container {
+  background-color: rgba(105, 105, 105,0.8);
+  max-width: 1500px;
+  max-height: 2000px;
+  transform: translateY(10%) translateX(35%);
+  padding:50px;
+  box-sizing: border-box;
+}
+
+.news-feed-container > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.news-feed-container > div > div:last-child{
+  background-color: aliceblue;
+  padding:1em;
+  border-radius: 50px;
+
+}
+
+.news-feed-container h1{
+  color: black;
+  margin-bottom: 0.5em;
+}
+.picture img {
+
+  border-radius: 100%;
+  width:300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.news-feed-container .text-box > div{
+  grid-column: span 2;
+}
+
+.news-feed-container .text-box textarea{
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.news-feed-container .text-box .post-button{
+  text-align: right;
+}
+
+.news-feed-container .text-box .post-button button{
+  font-size: 1.5em;
+  padding:5px;
+  margin-top: 10px;
+  margin-right: 15px;
 }
