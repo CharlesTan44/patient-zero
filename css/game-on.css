@@ -22,8 +22,36 @@
     height: 750px;
     transform: translateY(10%) translateX(20%);
  }
+
  #the-game iframe {
     width: 900px;
     height: 755px;
  }
-     
+
+ .info-container{
+     background-color: rgba(0,0,0,0.7);
+     width:500px;
+     height:755px;
+ }
+
+.rules {
+    display:grid;
+    grid-template-columns: auto 1fr;
+}
+
+.rules .game-info{
+    width:200px;
+    height:200px;
+}
+.rules .game-info img{
+    width:100%;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.info-words {
+    color: white;
+    font-weight: bold;
+}

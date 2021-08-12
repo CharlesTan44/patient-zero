@@ -1,7 +1,7 @@
 /* Nav Bar */
 
 nav ul li a:hover {
-  background-color: #cccccc;
+  background-color: #ffffff;
   color: #f80000;
   transition: all 0.5s;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .news-feed-container {
-  background-color: rgba(105, 105, 105,0.8);
+  background-color: rgba(0, 0, 0,0.7);
   max-width: 1500px;
   max-height: 2000px;
   transform: translateY(10%) translateX(35%);
