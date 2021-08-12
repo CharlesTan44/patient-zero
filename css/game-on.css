@@ -10,9 +10,20 @@
  
  .game-container {
      display: grid;
-     grid-template-columns: 2fr;
-     width:500px;
-     height:500px;
+     grid-template-columns: 2fr 1fr;
+     width:100%;
+
  }
  
+ #the-game { 
+    padding:100px;
+    background-color: rgba(0,0,0,0.7);
+    width:930px;
+    height: 750px;
+    transform: translateY(10%) translateX(20%);
+ }
+ #the-game iframe {
+    width: 900px;
+    height: 755px;
+ }
      
