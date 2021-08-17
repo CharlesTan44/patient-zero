@@ -21,6 +21,7 @@ body {
 .smallbox {
   margin: 5%;
   color: white;
+  font-size:50px;
 }
 
 .play-button{
