@@ -19,14 +19,14 @@
  #the-game { 
     padding:100px;
     background-color: rgba(0,0,0,0.7);
-    width:930px;
-    height: 750px;
+    width: 59%;
+    height: 80%;
     transform: translateY(10%) translateX(20%);
  }
 
  #the-game iframe {
-    width: 900px;
-    height: 755px;
+    width: 100%;
+    height: 100%;
  }
 
  .info-container{
